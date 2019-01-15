@@ -1,6 +1,6 @@
 {
-  "name": "f2f-app",
-  "productName": "f2f-app",
+  "name": "f2f-reference-app",
+  "productName": "f2f-reference-app",
   "version": "0.1.1",
   "description": "f2f: Face-2-Face reference application for USHIN",
   "main": "src/index.js",
@@ -46,7 +46,10 @@
     }
   },
   "dependencies": {
-    "electron-compile": "^6.4.3",
+    "cryptiles": ">=4.1.2",
+    "mime": ">=1.4.1",
+    "hoek": ">=4.2.1",
+    "electron-compile": "^6.4.4",
     "electron-squirrel-startup": "^1.0.0"
   },
   "devDependencies": {
@@ -59,6 +62,6 @@
     "eslint-config-airbnb": "^15.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.11.1"
+    "eslint-plugin-react": "^7.12.3"
   }
 }
